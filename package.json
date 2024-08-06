@@ -1,0 +1,12 @@
+{
+  "name": "combined-nextjs-flask-project",
+  "version": "1.0.0",
+  "scripts": {
+    "frontend": "cd nextFullStack && npm run dev",
+    "backend": "cd flaskBackend && flask run",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

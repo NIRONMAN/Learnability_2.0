@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#chatElement a { 
+    font-weight: normal;
+    color: #99c3ff;
+}
+
+
